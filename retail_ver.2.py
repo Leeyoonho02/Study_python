@@ -34,7 +34,6 @@ def buy() :
             print("시발점을 구매합니다.")
             inventory["sibal"] += 1
             money -= 1000
-
         else :
             print("잔액이 부족합니다.")
 
