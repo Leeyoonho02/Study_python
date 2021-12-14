@@ -11,17 +11,13 @@ def menu() :
 
     if i == 1 : 
         buy()
-
     elif i == 2 : 
         sell()
-
     elif i == 3 : 
         inven()
-
     elif i == 4 : 
         print("프로그램을 종료합니다.")         
         quit()
-
     else : 
         print("잘못된 입력입니다.")
         menu()
