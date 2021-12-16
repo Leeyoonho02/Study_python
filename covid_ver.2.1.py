@@ -7,6 +7,7 @@ soup = BeautifulSoup(webpage,"html.parser")
 #now = time.localtime()
 
 korea = soup.select_one("#root > div.c-bZXDba > div.c-gmUTjU > div.c-gmRZqw > div > div > section:nth-child(1) > div > div.c-ftcwwt.c-ftcwwt-bpRjqJ-color-red > div.c-yYoNH").get_text()
+korea_today = soup.select_one("#root > div.c-bZXDba > div.c-gmUTjU > div.c-gmRZqw > div > div > section:nth-child(2) > div > section > div.c-ftcwwt > div.c-jCmtGw").get_text()
 daegu = soup.select_one("#root > div.c-bZXDba > div.c-gmUTjU > div.c-gmRZqw > div > div > section:nth-child(4) > div > div.c-iCTXjZ > div > table > tbody > tr:nth-child(15) > td.c-fWUTTQ.c-fWUTTQ-fYeKAw-shadow-true.c-fWUTTQ-cOWTvr-centered-true.c-fWUTTQ-ibxIhnQ-css > a > div > div > div.c-hPkbyn").get_text()
 daegu_today = soup.select_one("#root > div.c-bZXDba > div.c-gmUTjU > div.c-gmRZqw > div > div > section:nth-child(4) > div > div.c-iCTXjZ > div > table > tbody > tr:nth-child(15) > td.c-fWUTTQ.c-fWUTTQ-fYeKAw-shadow-true.c-fWUTTQ-cOWTvr-centered-true.c-fWUTTQ-igvBJoE-css > a > div > div > div.c-hPkbyn").get_text()
 
